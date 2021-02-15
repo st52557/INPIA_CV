@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(#54778a,#0b0b39);
+    color: white;
+}
+
+/* Nav menu */
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+    font-size: 28px;
+    padding: 14px;
+}
+
+
+/* Hero header*/
+
+.intro {
+    display: table;
+    width: 100%;
+    padding: 0;
+    background: url(../img/mountains.png) center center no-repeat;
+    background-color: aliceblue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.intro .overlay {
+    background: rgba(0,0,0,0.4);
+}
+.intro h1 {
+    font-family: Garamond, serif;
+    color: #fff;
+    font-size: 10vw;
+    font-weight: 400;
+    margin-top: 0;
+}
+.intro span {
+    color: #a7c44c;
+    font-weight: 600;
+}
+.intro p {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 150px;
+}
+header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+/* Features Section */
+
+#features {
+    padding: 120px 0;
+}
+#features .features-item {
+    margin: 0 20px;
+}
+#features img {
+    margin: 30px auto 20px;
+}
+
+#features p {
+    line-height: 24px;
+    margin: 15px 0 30px;
+}
+
+.features-item img{
+    border-radius: 8%;
+    height: 260px;
+    width: 260px;
+    display: block;
+}
+
+/* About Section */
+
+#about {
+    padding: 0;
+    background: rgba(255,255,255,0.1);
+}
+#about h2::after {
+    bottom: 0;
+    margin-left: 0;
+    left: 0;
+}
+#about .about-text {
+    padding: 80px 0;
+}
+#about .about-img {
+    background: #444 url(../img/portrait.png) center center no-repeat;
+    background-size: cover;
+    height: 570px;
+}
+#about p {
+    line-height: 24px;
+    margin: 15px 0 30px;
+}
+
+
+/* Contact*/
+
+#contact {
+    padding: 80px 0;
+    background: #333;
+}
+#contact .contact-item p {
+    font-size: 15px;
+    color: #777;
+    margin: 0;
+
+}
+#contact .section-title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+#contact h3 {
+
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    color: #aaa;
+
+}
+
+/* Footer*/
+#footer {
+    background: #262626;
+    padding: 40px 0 20px 0;
+}
+#footer p {
+    font-size: 14px;
+    color: #666;
+}
+
+.text-center{
+    text-align: center;
+}
