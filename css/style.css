@@ -7,7 +7,8 @@ body{
     color: white;
 }
 
-/* Nav menu */
+
+/* Bootstrap hamburger nav menu */
 
 .navbar-nav {
     float:none;
@@ -24,7 +25,7 @@ body{
 }
 
 
-/* Hero header*/
+/* HERO header */
 
 .intro {
     display: table;
@@ -56,13 +57,22 @@ body{
     font-weight: 400;
     margin-top: 150px;
 }
-header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 60px;
+#header .intro-text {
+    padding-top: 250px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
-/* Features Section */
+#test-browser{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+/* Fetures - Three cols in row */
 
 #features {
     padding: 120px 0;
@@ -86,7 +96,8 @@ header .intro-text {
     display: block;
 }
 
-/* About Section */
+
+/* Who am I section */
 
 #about {
     padding: 0;
@@ -101,7 +112,7 @@ header .intro-text {
     padding: 80px 0;
 }
 #about .about-img {
-    background: #444 url(../img/portrait.png) center center no-repeat;
+    background: #444 url(../img/portrait.jpg) center center no-repeat;
     background-size: cover;
     height: 570px;
 }
@@ -111,7 +122,7 @@ header .intro-text {
 }
 
 
-/* Contact*/
+/* Contact */
 
 #contact {
     padding: 80px 0;
@@ -136,7 +147,8 @@ header .intro-text {
 
 }
 
-/* Footer*/
+/* Footer */
+
 #footer {
     background: #262626;
     padding: 40px 0 20px 0;
@@ -151,9 +163,7 @@ header .intro-text {
 }
 
 
-
-
-/* Button*/
+/* Button for changing background*/
 
 .button {
     display: inline-flex;
